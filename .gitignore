@@ -1,0 +1,9 @@
+*.joblib
+*.pkl
+*.csv
+.ipynb_checkpoints
+.DS_Store
+__pycache__
+Resources
+Data
+*.pyc

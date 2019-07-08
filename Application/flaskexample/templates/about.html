@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+<style>
+
+.button {
+  background-color: #e7e7e7; /* Gray */
+  border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+</style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../static/favicon.ico">
+
+    <title>Predict Interactions Between Pairs of Drugs</title>
+     <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <script type="text/javascript" language="javascript" src="../static/jsme/jsme.nocache.js"></script>
+    
+
+    <SCRIPT LANGUAGE="JavaScript">
+
+            function getSmiles() {
+            var drawing = document.JME.smiles();
+            document.getElementById("SMILES").value=drawing;
+                document.getElementById("form1").submit();
+            }
+
+</SCRIPT>
+
+    	<title></title>
+    </head>
+    <body>
+    <div class="container-fluid">         
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+
+            <button type="button" class="btn btn-info btn-lg "onclick="location.href='/home'" >Predict</button>
+
+            <button type="button" class="btn btn-info btn-lg" onclick="location.href='/about'" >About</button>
+
+            
+        </div>
+      </div>  
+    	<h1></h1>
+
+
+        <div class="container"> 
+            <center>            
+            <h3>This in silico tool for predicting drug interactions was built by Shristi Pandey, Insight Health Data Fellow, Summer 2019.</h3>
+            <h3>Please find more details about the project in the <a href = "https://medium.com/@p.shristi/drug-interaction-prediction-using-machine-learning-d7a4612a201c"><b> medium blog post</b></a> or <a href = "https://docs.google.com/presentation/d/1CVB1M96mJyOUI3l_ax6U1GVvgWClVZ8TuKt6x0bDX9M/edit?usp=sharing"><b> in her recent presentation</b></a> </h3>
+        </center>
+
+            
+
+
+    </body>
+</html>
+
